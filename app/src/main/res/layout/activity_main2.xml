@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textviewregisterchek"
+        android:text="Register"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/edittexregtemail"
+        android:hint="example@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:hint="********"
+        android:id="@+id/edittextregpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:text="Register"
+        android:id="@+id/buttonregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_margin="15dp"
+        android:id="@+id/progressbarregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ProgressBar>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390205250669",
+    "project_id": "kotiin-firebase-register",
+    "storage_bucket": "kotiin-firebase-register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390205250669:android:012a05a43e3ff44913f364",
+        "android_client_info": {
+          "package_name": "com.x7.kotiin_firebase_register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390205250669-7car9a00p4pfgvuoi63f7te82r1hjdr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkcQf-Ta8nVtMCNnjIEIRRit68agZ7704"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390205250669-7car9a00p4pfgvuoi63f7te82r1hjdr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

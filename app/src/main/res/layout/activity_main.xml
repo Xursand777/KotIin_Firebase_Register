@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:text="Login"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/edittextemail"
+        android:hint="example@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:hint="********"
+        android:id="@+id/edittextpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:text="Login"
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <TextView
+        android:id="@+id/textviewforregister"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:gravity="end"
+        android:text="register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_margin="15dp"
+        android:id="@+id/progressbarlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ProgressBar>
+
+</LinearLayout>
